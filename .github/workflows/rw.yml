@@ -1,0 +1,17 @@
+name: rw
+
+on:
+  workflow_call:
+    inputs:
+      param1:
+        description: "param1"
+        required: true
+        type: string
+
+jobs:
+  mickeyrocks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifact
+        run: exit 1
