@@ -9,7 +9,7 @@ on:
         type: string
 
 jobs:
-  mickeyrocks:
+  report:
     runs-on: ubuntu-latest
 
     steps:
